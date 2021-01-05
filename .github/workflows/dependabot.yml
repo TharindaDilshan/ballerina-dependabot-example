@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Dependabot Action
-        uses: TharindaDilshan/ballerina-dependabot-extended
+        uses: TharindaDilshan/ballerina-dependabot-extended@main
         id: bot
         with:
           git_email: ${{ secrets.BALLERINA_BOT_EMAIL }}
