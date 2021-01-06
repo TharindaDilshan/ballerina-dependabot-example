@@ -1,4 +1,4 @@
-name: Ballerina Dependabot
+name: Ballerina_Dependabot
 on: 
   workflow_dispatch:
   schedule:
