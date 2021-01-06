@@ -15,4 +15,4 @@ jobs:
           git_email: ${{ secrets.BALLERINA_BOT_EMAIL }}
           git_username: ${{ secrets.BALLERINA_BOT_USERNAME}}
           token: ${{ secrets.BALLERINA_BOT_TOKEN }}
-          file_path: /
+          file_path: project_1/
