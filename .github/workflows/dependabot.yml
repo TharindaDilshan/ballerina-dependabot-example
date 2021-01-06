@@ -1,6 +1,8 @@
 name: Ballerina Dependabot
 on: 
   workflow_dispatch:
+  schedule:
+        - cron: '30 18 * * 7'
 jobs:
   resolve_dependencies:
     runs-on: ubuntu-latest
